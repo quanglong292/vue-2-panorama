@@ -1,5 +1,16 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <PanoramaView></PanoramaView>
   </div>
 </template>
+
+<script>
+import PanoramaView from "../components/PanoramaView.vue";
+
+export default {
+  name: "AboutView",
+  components: {
+    PanoramaView,
+  },
+};
+</script>
